@@ -39,9 +39,7 @@ This repository contains the main GUI script `service_data.py` which connects to
 
 ---
 
-## Demo / Screenshots
 
-(Include screenshots here if available. For this README, add them to `/docs` and reference them.)
 
 ---
 
@@ -76,7 +74,7 @@ openpyxl
 and install via:
 
 ```bash
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ---
@@ -216,11 +214,6 @@ Please ensure code is well-documented and add tests where applicable.
 
 ---
 
-## License
-
-This project is provided under the MIT License. See LICENSE for details. (Add a LICENSE file to the repository if not present.)
-
----
 
 ## Contact
 
