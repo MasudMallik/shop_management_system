@@ -23,7 +23,7 @@ l1.grid(row=1,column=0,padx=100,pady=10)
 
 #start of owner section
 
-my_db=sql.connect(host="localhost",user="admin",password="root",database="abc_service")
+my_db=sql.connect(host="localhost",user="****",password="****",database="abc_service")
 cur=my_db.cursor()
 def ow_back1():
     global ow_b,l,l1,own,staf,cust,ex,ow_name,ow_name1,ow_pass,ow_pass1,sub,f1
@@ -997,5 +997,6 @@ cust.grid(row=4,column=0,pady=10)
 
 ex=Button(root,text="Exit",height=2,width=7,fg="red",bg="white",command=root.destroy)
 ex.grid(row=5,column=0,padx=30)
+
 
 root.mainloop()
